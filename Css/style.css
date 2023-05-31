@@ -3,6 +3,10 @@ p,ul{
     margin: 0;
 }
 
+ul{
+    list-style: none;
+}
+
 body{
     font-family: 'Inter';
 }
@@ -105,14 +109,16 @@ body{
     background-image: url(../img/Group481.jpg);
     height: 740px;
     width: 1440px;
+    padding: 180px 204px 179px;
 }
 
-.conteiner-hero-left{
-    height: 381px;
+.container-hero-left{
+    display: flex;
+    justify-content: space-between;
 }
 
 .left-hero{
-    padding: 180px 860px 179px 204px;
+    margin-right: 606px;
 }
 
 .text-hero{
@@ -144,13 +150,11 @@ body{
 }
 
 .contact-hero-list{
+    display: flex;
     justify-content: flex-end;
     flex-direction: column;
-    list-style: none;
-}
-
-.contact-hero{
-    margin: 0px 204px 299px 606px;
+    align-items: flex-end;
+    padding: 120px 0px ;
 }
 
 .contact-hero:nth-child(-n+2){
