@@ -7,8 +7,12 @@ ul{
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+}
+
 body{
-    font-family: 'Inter';
+    font-family: 'Inter' serif;
 }
 
 .contanier{
@@ -69,11 +73,10 @@ body{
 }
 
 .nav-list a {
-    text-decoration: none;
     color: #FFFFFF;
 }
 
-.nav-list a:hover {
+.nav-list a:hover, .nav-list a:focus{
     color: rgba(148, 207, 255, 1);
     font-weight: 600;
 }
@@ -98,7 +101,7 @@ body{
 }
 
 .language{
-    font-family: 'Hammersmith One';
+    font-family: 'Hammersmith One' serif;
     color: #FFFFFF;
     font-size: 16px;
     line-height: 20px;
@@ -118,11 +121,11 @@ body{
 }
 
 .left-hero{
-    margin-right: 606px;
+    justify-content: center;
 }
 
 .text-hero{
-    font-family: 'Inter';
+    font-family: 'Inter' serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
@@ -168,7 +171,7 @@ body{
 
 .quotes-text{
     margin: 0;
-    font-family: 'Inter';
+    font-family: 'Inter' serif;
     font-weight: 400;
     font-size: 36px;
     line-height: 44px;
@@ -185,7 +188,7 @@ body{
 }
 
 .jeik-salli{
-    font-family: 'Inter';
+    font-family: 'Inter' serif;
     height: 29px;
     font-weight: 400;
     font-size: 24px;
@@ -201,10 +204,14 @@ body{
     background-image: url(../img/rectangle10.jpg);
     width: 1440px;
     height: 741px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .treiler-bth{
-    margin: 330px 590px 331px;
+    margin: 355px 0px 356px;
+    padding: 25px 20px 25px 19px;
     width: 260px;
     height: 80px;
     background: #0B0E66;
@@ -249,11 +256,11 @@ body{
 
 .box-content{
     text-align: center;
-    padding: 36px 60px;
+    padding: 36px 0px;
 }
 
 .box-text{
-    font-family: 'HeadlandOne';
+    font-family: 'HeadlandOne' serif;
     height: 24px;
     font-weight: 400;
     font-size: 24px;
