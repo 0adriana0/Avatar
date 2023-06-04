@@ -109,11 +109,11 @@ body {
     line-height: 20px;
 }
 /* main */
-.news {
+.site{
     padding: 100px 0px;
 }
 
-.news-cards {
+.site-cards {
     text-align: center;
     padding-bottom: 20px;
     margin: 0px 30px;
@@ -122,21 +122,21 @@ body {
     border-radius: 0px 0px 4px 4px;
 }
 
-.news-list {
+.site-list {
     list-style: none;
     display: flex;
     justify-content: center;
 
 }
 
-.news-photo {
+.site-photo {
     background: #FFFFFF;
     width: 250px;
     height: 220px;
     object-fit: cover
 }
 
-.news-name {
+.site-name {
     font-family: 'Inter' serif;
     font-weight: 400;
     font-size: 25px;
@@ -145,7 +145,7 @@ body {
     margin: 30px 0px 10px;
 }
 
-.news-text{
+.site-text{
     font-family: 'Inter' sans-serif;
     font-weight: 400;
     font-size: 20px;
