@@ -12,7 +12,7 @@ a{
 }
 
 body{
-    font-family: 'Inter' serif;
+    font-family: 'Inter',serif;
 }
 
 .contanier{
@@ -82,7 +82,7 @@ body{
 }
 
 .nav-btn{
-    font-family: 'Headland One' sans-serif;
+    font-family: 'Headland One', sans-serif;
     margin-right: 49px;
     width: 141px;
     height: 42px;
@@ -101,7 +101,7 @@ body{
 }
 
 .language{
-    font-family: 'Hammersmith One' serif;
+    font-family: 'Hammersmith One', serif;
     color: #FFFFFF;
     font-size: 16px;
     line-height: 20px;
@@ -120,12 +120,12 @@ body{
     justify-content: space-between;
 }
 
-.left-hero{
-    justify-content: center;
+.arrow{
+    margin-left: 52px;
 }
 
 .text-hero{
-    font-family: 'Inter' serif;
+    font-family: 'Inter', serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
@@ -133,7 +133,7 @@ body{
 }
 
 .button-hero{
-    font-family: 'Headland One' sans-serif;
+    font-family: 'Headland One', sans-serif;
     background: #0B0E66;
     border: 3px solid #26C7EA;
     border-radius: 45px 0px;
@@ -171,7 +171,7 @@ body{
 
 .quotes-text{
     margin: 0;
-    font-family: 'Inter' serif;
+    font-family: 'Inter', serif;
     font-weight: 400;
     font-size: 36px;
     line-height: 44px;
@@ -183,8 +183,11 @@ body{
     text-align: center;
 }
 
+
 .jeik-salli{
-    font-family: 'Inter' serif;
+    display: block;
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
     margin: 16px 0px 8px;
     height: 29px;
     font-weight: 400;
@@ -215,7 +218,7 @@ body{
     background: #0B0E66;
     border: 3px solid #26C7EA;
     border-radius: 45px 0px;
-    font-family: 'Headland One' sans-serif;
+    font-family: 'Headland One', sans-serif;
     font-weight: 400;
     font-size: 24px;
     line-height: 30px;
@@ -230,7 +233,7 @@ body{
 }
 
 .avatar-language-parag{
-    font-family: 'Headland One' sans-serif;
+    font-family: 'Headland One', sans-serif;
     margin: 0;
     font-weight: 400;
     font-size: 32px;
@@ -260,7 +263,7 @@ body{
 }
 
 .box-text{
-    font-family: 'HeadlandOne' serif;
+    font-family: 'HeadlandOne', serif;
     height: 24px;
     font-weight: 400;
     font-size: 24px;
@@ -278,6 +281,7 @@ body{
     background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url(../img/Rectangle12.png);
     height: 223px;
     display: flex;
+    /* justify-content: space-between; */
     margin-top: 10px;
 }
 
@@ -309,7 +313,7 @@ body{
 
 .footer-right{
     height: 120px;
-    margin: 80px 228px 0px 80px;
+    margin: 80px 150px 0px 80px;
 }
 
 .contact-link:nth-child(-n+1){
@@ -318,10 +322,14 @@ body{
 
 .footer-text{
     margin: 37px 0px 25px 110px;
-    font-family: 'Inter';
+    font-family: 'Inter', serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
     color: #FFFFFF;
     height: 17px;
+}
+
+.contact-link-vector{
+    margin: 0px 20px 6px;
 }

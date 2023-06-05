@@ -13,7 +13,7 @@ a {
 }
 
 body{
-    font-family: 'Inter';
+    font-family: 'Inter', serif;
 }
 
 .contanier {
@@ -56,7 +56,6 @@ body{
 }
 
 .nav-list-item {
-    font-family: 'Inter' sans-serif;
     font-weight: 300;
     font-size: 20px;
     line-height: 24px;
@@ -85,7 +84,7 @@ body{
 }
 
 .nav-btn {
-    font-family: 'Headland One' sans-serif;
+    font-family: 'Headland One', sans-serif;
     margin-right: 49px;
     width: 141px;
     height: 42px;
@@ -104,7 +103,7 @@ body{
 }
 
 .language {
-    font-family: 'Hammersmith One' sans-serif;
+    font-family: 'Hammersmith One', serif;
     color: #FFFFFF;
     font-size: 16px;
     line-height: 20px;
@@ -144,7 +143,6 @@ body{
 
 .people-name {
     text-align: center;
-    font-family: 'Inter' serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -154,7 +152,6 @@ body{
 
 .people-work {
     text-align: center;
-    font-family: 'Inter' sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
@@ -172,7 +169,6 @@ body{
 }
 
 .main-avatar-title{
-    font-family: 'Inter' sans-serif;
     font-size: 30px;
     margin: 0px 502px;
     color: #4a4a4a;
@@ -256,7 +252,6 @@ body{
 }
 
 .news-title{
-    font-family: 'Inter' serif;
     text-align: center;
     font-size: 36px;
     line-height: 1.16;
@@ -285,7 +280,6 @@ body{
 
 .news-name{
     text-align: center;
-    font-family: 'Inter' serif;
     font-weight: 400;
     font-size: 30px;
     line-height: 1.18;
@@ -295,7 +289,6 @@ body{
 
 .news-year{
     text-align: center;
-    font-family: 'Inter' sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
@@ -303,11 +296,11 @@ body{
     color: #757575;
     margin: 0px 0px 30px;
 }
-
 .footer {
     background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url(../img/Rectangle12.png);
     height: 223px;
     display: flex;
+    /* justify-content: space-between; */
     margin-top: 10px;
 }
 
@@ -329,7 +322,6 @@ body{
 
 .contact-link {
     text-decoration: none;
-    font-family: 'Inter';
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
@@ -339,7 +331,7 @@ body{
 
 .footer-right {
     height: 120px;
-    margin: 80px 228px 0px 80px;
+    margin: 80px 150px 0px 80px;
 }
 
 .contact-link:nth-child(-n+1) {
@@ -348,10 +340,13 @@ body{
 
 .footer-text {
     margin: 37px 0px 25px 110px;
-    font-family: 'Inter';
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
     color: #FFFFFF;
     height: 17px;
+}
+
+.contact-link-vector {
+    margin: 0px 20px 6px;
 }
