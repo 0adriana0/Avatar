@@ -1,4 +1,4 @@
-p,ul{
+p,ul,h3,h2{
     padding: 0;
     margin: 0;
 }
@@ -207,10 +207,10 @@ body{
     justify-content: center;
     text-align: center;
     margin-top: 10px;
+    padding: 330px 590px;
 }
 
 .treiler-bth{
-    margin: 355px 0px 356px;
     padding: 25px 20px 25px 19px;
     width: 260px;
     height: 80px;
@@ -228,17 +228,24 @@ body{
     background-image: linear-gradient(to right, rgba(237, 240, 242, 0.4),rgba(237, 240, 242, 0.4)), url(../img/rectangle20.jpg);
     width: 1440px;
     height: 704px;
-    margin-top: 10px;
+    padding: 58px 203px 57px 204px;
+}
+
+.avatar-language-item{
+    background: rgba(255, 255, 255, 0.7);
+    width: 320px;
+    height: 240px;
+    padding: 36px 0px;
 }
 
 .avatar-language-parag{
     font-family: 'Headland One', sans-serif;
-    margin: 0;
+    margin-bottom: 45px;
     font-weight: 400;
     font-size: 32px;
     line-height: 40px;
     color: #141414;
-    padding: 58px 578px 45px 577px;
+    text-align: center;
 }
 
 .avatar-language-list{     
@@ -246,13 +253,9 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 0px 203px 57px 204px;
 }
 
-.box{
-    background: rgba(255, 255, 255, 0.7);
-    width: 320px;
-    height: 240px;
+.avatar-language-item:nth-child(-n+3){
     margin: 0px 0px 24px;
 }
 
@@ -262,18 +265,26 @@ body{
 }
 
 .box-text{
-    font-family: 'HeadlandOne', serif;
+    font-family: 'Headland One', sans-serif;
     height: 24px;
     font-weight: 400;
     font-size: 24px;
     line-height: 24px;
     color: #141414;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.black{
+    font-family: 'Headland One', serif;
+    color: black;
 }
 
 .box-img{
-    margin: 31px 0px 40px;
+    display: block;
     width: 152px;
     height: 40px;
+    margin: 0 auto 40px;
 }
 
 .footer{
@@ -287,7 +298,8 @@ body{
 .footer-left{
     width: 183px;
     height: 70px;
-    margin: 77px 80px 76px 204px;
+    padding: 77px 0px 76px 204px;
+    margin-right: 80px;
 }
 
 .logo-footer{
@@ -312,7 +324,8 @@ body{
 
 .footer-right{
     height: 120px;
-    margin: 80px 150px 0px 80px;
+    margin-left: 80px;
+    padding: 80px 150px 0px 0px;
 }
 
 .contact-link:nth-child(-n+1){
