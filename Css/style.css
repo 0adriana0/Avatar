@@ -165,7 +165,6 @@ body{
 }
 /* //////////// */
 .quotes{
-    height: 270px;
     width: 1440px;
 }
 
@@ -179,7 +178,7 @@ body{
 }
 
 .contant-quotes{
-    margin: 75px 0px 0px;
+    padding: 75px 0px 0px;
     text-align: center;
 }
 
