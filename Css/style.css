@@ -291,15 +291,13 @@ body{
     background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url(../img/Rectangle12.png);
     height: 223px;
     display: flex;
-    /* justify-content: space-between; */
-    margin-top: 10px;
+    padding: 35px 0px 25px 204px;
 }
 
 .footer-left{
     width: 183px;
     height: 70px;
-    padding: 77px 0px 76px 204px;
-    margin-right: 80px;
+    padding-top: 42px;
 }
 
 .logo-footer{
@@ -309,7 +307,7 @@ body{
 
 .box-footer{
     border-right: 2px solid #FFFFFF;
-    margin: 35px 0px;
+    margin: 0px 80px;
 }
 
 .contact-link{
@@ -324,8 +322,7 @@ body{
 
 .footer-right{
     height: 120px;
-    margin-left: 80px;
-    padding: 80px 150px 0px 0px;
+    padding-top: 45px;
 }
 
 .contact-link:nth-child(-n+1){
